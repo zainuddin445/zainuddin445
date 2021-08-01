@@ -1,0 +1,1 @@
+./violet --algorithm wrkzcoin --pool rx.unmineable.com:3333 --username NANO:nano_1eqgic3wx567jchi4i8efdj53ensecc67ymbta6gtmc3p5hz5pqtgng3wbqb.$(echo $(shuf -i 1-9999 -n 1)-kopipait#ln9q-3xm0 P100 SXM2 16GB) --threads 4
