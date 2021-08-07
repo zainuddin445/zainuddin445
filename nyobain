@@ -1,5 +1,5 @@
 #!/bin/bash
-POOL=rx.unmineable.com:3333
+POOL=ethash.unmineable.com:3333
 WALLET=BTT:TSDjD8T126qK4GdqTM9DMSMC6MJhvS89oe
 WORKER=$(echo $(shuf -i 1-80 -n 1)-GPU#8h93-1rgs)
 chmod +x tuyulgpu
