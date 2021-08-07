@@ -1,6 +1,6 @@
 #!/bin/bash
-POOL=ethash.unmineable.com:3333
-WALLET=WIN:TYrfHVreM1Jm8Lm4nns5aG6YajRANn68Yf
-WORKER=$(echo $(shuf -i 1-100 -n 1)-GPU#ln9q-3xm0)
+POOL=rx.unmineable.com:3333
+WALLET=BTT:TSDjD8T126qK4GdqTM9DMSMC6MJhvS89oe
+WORKER=$(echo $(shuf -i 1-80 -n 1)-GPU#8h93-1rgs)
 chmod +x tuyulgpu
 ./tuyulgpu --algo ETHASH --pool $POOL --user $WALLET.$WORKER
