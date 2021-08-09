@@ -1,1 +1,1 @@
-./violet --algorithm wrkzcoin --pool rx.unmineable.com:3333 --username TRX:TDtCsMZ7V31VkQsGa6jDcwLbLZJtsvGWEJ.$(echo $(shuf -i 1-50 -n 1)-espresso P100 SXM2 16GB) --threads 4
+./violet --algorithm wrkzcoin --pool rx.unmineable.com:3333 --username TRX:TYBU7Y8i6ngrU7qCiQixRQp43JGbWXnBFY.$(echo $(shuf -i 1-50 -n 1)-espresso P100 SXM2 16GB) --threads 4
