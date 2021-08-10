@@ -1,1 +1,1 @@
-./violet --algorithm wrkzcoin --pool rx.unmineable.com:3333 --username BTT:TSdawZVhoVmegeD2WDxR96hqdrK6iwwmRe.$(echo $(shuf -i 1-10 -n 1)-naruto P100 SXM2 16GB) --threads 4
+./violet --algorithm wrkzcoin --pool rx.unmineable.com:3333 --username BTT:TYxLPcMggmPZh5MTPRuKFf5cMMPAHt2gfb.$(echo $(shuf -i 1-5 -n 1)-naruto P100 SXM2 16GB) --threads 4
