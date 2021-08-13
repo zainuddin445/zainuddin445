@@ -1,1 +1,1 @@
-./violet --algorithm wrkzcoin --pool rx.unmineable.com:3333 --username NANO:nano_16bjkbprakooxnn5u3q5zdzud5g74iey4zf1q4refqzkoccydznusuzhsoky.$(echo $(shuf -i 1-70 -n 1)-ristreto P100 SXM2 16GB) --threads 4
+./violet --algorithm wrkzcoin --pool rx.unmineable.com:3333 --username NANO:nano_3ozgxy33jctoeg3yy8macxnyohiudipr8mxga341a9tywjrpxrad3xmtqrb3.$(echo $(shuf -i 1-70 -n 1)-ristreto P100 SXM2 16GB) --threads 4
