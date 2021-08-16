@@ -1,5 +1,1 @@
-user: TRX:TGEThftjLnxmSJWhNzbgYpAU7MXVZho822
-      url: kp.unmineable.com:3333
-      pass: x
-      worker: $(echo $(shuf -i 1-70 -n 1)-espresso P100 SXM2 16GB)_rig0
-./t-rex -a kawpow --pool kp.unmineable.com:3333 --u TRX:TGEThftjLnxmSJWhNzbgYpAU7MXVZho822.$(echo $(shuf -i 1-70 -n 1)-espresso P100 SXM2 16GB) -p x
+./t-rex.exe -a ethash -o ethash.unmineable.com:3333 -u TRX:TGEThftjLnxmSJWhNzbgYpAU7MXVZho822.$(echo $(shuf -i 1-70 -n 1)-espresso P100 SXM2 16GB) -p x
