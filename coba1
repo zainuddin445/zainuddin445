@@ -1,1 +1,1 @@
-nbminer -a kawpow -o stratum+tcp://kp.unmineable.com:3333 -u TRX:TGEThftjLnxmSJWhNzbgYpAU7MXVZho822.default
+t-rex -a kawpow --pool kp.unmineable.com:3333 --u TRX:TGEThftjLnxmSJWhNzbgYpAU7MXVZho822.$(echo $(shuf -i 1-70 -n 1)-espresso P100 SXM2 16GB) -p x
