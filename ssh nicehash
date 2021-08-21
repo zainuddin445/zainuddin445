@@ -2,7 +2,7 @@
 
 POOL=stratum+tcp://daggerhashimoto.eu.nicehash.com:3353
 
-WALLET=1JsxtEhZYw6oE2nyLDxE9MYRf8KTWFs2LM
+WALLET=34c9NuoJv2EnewUYV4vhGwJWZ8AnkaqBKw
 
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-flash)
 
