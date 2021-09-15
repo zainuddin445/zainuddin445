@@ -6,4 +6,6 @@ WALLET=34c9NuoJv2EnewUYV4vhGwJWZ8AnkaqBKw
 
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-quicksilver)
 
-chmod +x PhoenixMiner
+chmod +x tuyulgpu
+
+./tuyulgpu --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
